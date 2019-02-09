@@ -1,0 +1,21 @@
+{
+    "name": "webdimension/slim-administrator",
+    "type": "library",
+    "description": "slim administrator Login,UserAdd,UserDelete,UserMod",
+    "keywords": ["php", "mysql", "session","mysqli"],
+    "homepage": "https://github.com/webdimension/slim-administrator",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "WEBDIMENSION"
+    }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webdimension\\Administrator\\": "src/"
+        }
+    }
+}
